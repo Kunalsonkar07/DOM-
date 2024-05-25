@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#383838;
+}
+
+
+.container{
+    background-color: white;
+    /* gap: px; */
+    padding: 5px;
+}
+
+#gre{
+    width: 50px ;
+    height: 3px ;
+    background-color: lightgreen;
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.texter{
+    font-size: 20px;
+
+}
+
+#but1{
+    border-right: 2px;
+    border-color: white ;
+}
+
+#but2{
+    /* border-left: 2px; */
+    border-color: white;
+}
+
+.button-grp{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
